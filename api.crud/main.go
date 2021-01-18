@@ -6,14 +6,14 @@ import (
 
 	"github.com/ancogamer/product5/api.crud/config"
 	route "github.com/ancogamer/product5/api.crud/controller/handler"
-	"github.com/gofiber/fiber"
+	db "github.com/ancogamer/product5/api.crud/pkg/psql"
+	"github.com/gofiber/fiber/v2"
 )
 
 func main() {
 	app := fiber.New()
 
-	route.DbStruct{PostgreSQLString: db.Connect()}
-	route.AllRoutes(app)
+	route.AllRoutes(route.DbStruct{PostgreSQLString: db.Connect()}, app)
 
 	log.Fatal(app.Listen(config.HTTPort))
 
