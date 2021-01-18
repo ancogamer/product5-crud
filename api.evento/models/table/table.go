@@ -12,7 +12,7 @@ type Table struct {
 	NumberOfParticipants int    `json:"participants" form:"participants"`    //	Numero atual de participantes
 	MaxOfParticipants    int    `json:"maxparticipants" form:"participants"` //	Numero máximo de participantes
 	Privacy              int    `json:"privacy" form:"privacy"`              //	Privacidade
-	DataEvento           string `json:"data_evento"`                         // Data do evento
-	HoraEvento           string `json:"hora_evento"`                         // Hora evento
 	Modalidade           int    `json:"modalidade"`                          // Presencial ou remoto
+	HoraMesaInit         string `json:"hora_mesa_init"`
+	HoraMesaEnd          string `json:"hora_mesa_end"`
 }

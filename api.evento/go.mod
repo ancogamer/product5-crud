@@ -1,4 +1,4 @@
-module github.com/ancogamer/product5/api.crud
+module github.com/ancogamer/product5/api.evento
 
 go 1.15
 
