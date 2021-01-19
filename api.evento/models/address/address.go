@@ -1,7 +1,7 @@
-package endereco
+package address
 
-// Endereco de uma mesa
-type Endereco struct {
+// Address de uma mesa
+type Address struct {
 	TableUUID      string `json:"table_uuid"`
 	DataCreate     string `json:"-"` // data de criação do evento
 	DataUpdate     string `json:"-"` // data de atualização do evento
