@@ -1,7 +1,8 @@
 package table
 
-// Table struct de mesa (eventos), aonde está amarrado os usuarios
+// Table struct de mesa aonde está amarrado os usuarios
 type Table struct {
+	TabEvUUID            string `json:"-"` // uuid dos eventos
 	DataCreate           string `json:"-"` // data de criação do evento
 	DataUpdate           string `json:"-"` // data de atualização do evento
 	UserCreateUUID       string `json:"user_create"`
