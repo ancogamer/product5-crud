@@ -2,6 +2,7 @@ package evento
 
 // Event estrutura basica do evento
 type Event struct {
+	UUID       string `json:"event"`
 	DataCreate string `json:"-"`
 	DataUpdate string `json:"-"`
 	Name       string `json:"name"`
@@ -23,6 +24,8 @@ CREATE TABLE  events (
 	ev_uuid uuid default uuid_generate_v4(),
 	ev_data_create date not null default now(),
 	ev_date_update date not null default now(),
+	ev_hora_create time without time zone not null default now(),
+	ev_hora_update time without time zone not null default now(),
 	ev_name character varying(300) not null,
 	ev_user_create_uuid uuid not null,
 	ev_data_init date not null,
