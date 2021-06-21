@@ -1,6 +1,7 @@
 github.com/Nhanderu/brdoc v1.1.2 h1:8omuNpCC+9FLhsATdigQxFyhed7sb2TVyJLVxUFDjWg=
 github.com/Nhanderu/brdoc v1.1.2/go.mod h1:UQQw7zlNjQJFSGooYd+uq6QqLQ2G6jAHVaeGAXUgUlk=
 github.com/ancogamer/product5 v0.0.0-20210118180350-9bb8e0a5f5b4 h1:8WQi+sXXKmIwMJctbOAUWPcD9SX3WpTYaopOAFzSDuQ=
+github.com/ancogamer/product5 v0.0.0-20210122185039-8aa66d1580f8 h1:AeuEcolVp0sO7VPNd/vbNVRfa5OuWHm7CV4BUvRMgsE=
 github.com/andybalholm/brotli v1.0.0 h1:7UCwP93aiSfvWpapti8g88vVVGp2qqtGyePsSuDafo4=
 github.com/andybalholm/brotli v1.0.0/go.mod h1:loMXtMfwqflxFJPmdbJO0a3KNoPuLBgiu3qAvBg8x/Y=
 github.com/gofiber/cors v0.2.2 h1:NQgLeNq8SWCKsdGotodyFCqLdSnxGLISsp9OU01k/cs=

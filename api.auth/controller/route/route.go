@@ -7,13 +7,11 @@ import (
 )
 
 //
-func AllRoutes(db dbStruct, app *fiber.App) {
+func AllRoutes(db DbStruct, app *fiber.App) {
 	////
 	app.Use(cors.New())
 	app.Use(mw.Compress(mw.CompressLevelBestSpeed))
 	app.Use(mw.Logger("${time} ${method} ${path} - ${ip} - ${status} - ${latency}\n"))
-
-	///
 
 	// application/json
 	// application/x-www-form-urlencoded
